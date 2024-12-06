@@ -1,0 +1,135 @@
+/* wapperQuesson */
+.wapperQuesson {
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+/* wapperQuestion */
+
+.wapperQuestion {
+    margin: 0 auto;
+    margin-top: 32px;
+    width: 720px;
+}
+
+.titleQuestion {
+    margin-top: 24px;
+    color: var(--text-75);
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.subtitleQuestion {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--text-50);
+    margin-top: 4px;
+}
+
+.tfQuesion,
+.multipleQuesion,
+.filleQuesion {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+}
+
+.listQuestion {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.itemQuestion {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    gap: 28px;
+
+    background-color: var(--gray-100);
+    border-radius: 12px;
+    box-shadow: -6px 0px 3px 0px rgba(35, 125, 247, 0.30) inset;
+    transition: box-shown 0.5s ease-in-out;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 400;
+
+    &:hover {
+        box-shadow: 0px 0px 2px 0px #237DF7;
+    }
+}
+
+.timeUpdate {
+    color: var(--text-50);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.titleCourse {
+    margin-top: 8px;
+    color: var(--text-100);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.ctaQuestion {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.btnAnswer {
+    padding: 8px 16px;
+    min-width: 120px;
+    color: var(--text-50);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 24px;
+    border: none;
+    border-radius: 12px;
+    background: var(--gray-100);
+
+    &:hover {
+        opacity: .7;
+    }
+}
+
+.btnAnswerActive {
+    border: 1px solid var(--blue-50);
+    color: var(--blue-50);
+
+    &:hover {
+        background-color: var(--blue-50);
+        color: var(--text-0);
+    }
+}
+
+.itemAnswer {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    padding: 16px 24px;
+    display: flex;
+    gap: 24px;
+}
+
+/* fill */
+
+
+
+.fiilContainer {
+    display: flex;
+    min-height: 120px;
+    padding: 16px 24px;
+    align-items: flex-start;
+    gap: 28px;
+    align-self: stretch;
+    border-radius: 12px;
+    background: var(--Gray-gray-100, #FFF);
+    box-shadow: -6px 0px 3px 0px rgba(35, 125, 247, 0.30) inset;
+}

@@ -1,0 +1,380 @@
+ .videoWrapper {
+   position: relative;
+   height: auto;
+ }
+
+
+ /* 
+.fadeOut {
+  opacity: 0;
+}
+
+.videoTitle {
+  position: absolute;
+  top: 10px;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-size: 1.25rem;
+  text-align: left;
+  width: auto;
+  max-width: 80%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.playPauseButton:hover {
+  background: rgba(197, 196, 196, 0.5);
+}
+
+.playPauseButton:active {
+  background: rgba(99, 99, 99, 0.5);
+}
+
+.playPauseButton .iconPlayPauseButton {
+  font-size: 100px;
+}
+
+
+.trackVideo {
+  margin-bottom: 200px;
+  padding: 100px;
+}
+
+.mainVideo::cue {
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  font-size: 130%;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  padding: 50px;
+}  */
+
+
+ .mainVideo {
+   width: 80%;
+   height: 80vh;
+ }
+
+ .ctaVideo {
+   position: absolute;
+   width: 100%;
+   bottom: 0;
+ }
+
+ .controls {
+   box-sizing: border-box;
+   width: 100%;
+   height: auto;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   background: rgba(0, 0, 0, 0.5);
+   padding: 10px;
+   border-radius: 5px;
+   z-index: 1;
+ }
+
+ .controlButton {
+   color: white;
+   background: transparent;
+   border: none;
+   font-size: 150%;
+   cursor: pointer;
+ }
+
+ .volumeControlWrapper {
+   position: relative;
+   display: flex;
+   align-items: center;
+ }
+
+ .volumeControl {
+   box-sizing: border-box;
+   display: none;
+   border-radius: 5px;
+   width: 100px;
+   height: 20px;
+
+ }
+
+ .volumeControlWrapper:hover .volumeControl {
+   display: block;
+   top: 0;
+   left: 100%;
+ }
+
+ .timeControl {}
+
+ .slider {
+   font-size: 1.5rem;
+   width: 100%;
+   color: #ef233c;
+   --thumb-height: 1.125em;
+   --track-height: 0.125em;
+   --brightness-hover: 180%;
+   --brightness-down: 80%;
+   --clip-edges: 0.125em;
+   position: relative;
+   background: #fff0;
+   overflow: hidden;
+ }
+
+ /* WebKit specific styles */
+ .slider,
+ .slider::-webkit-slider-runnable-track,
+ .slider::-webkit-slider-thumb {
+   -webkit-appearance: none;
+   transition: all ease 100ms;
+   height: var(--thumb-height);
+ }
+
+ .slider::-webkit-slider-thumb {
+   --thumb-width: 12px;
+   --thumb-height: 12px;
+   --thumb-radius: calc((var(--thumb-height) * 0.5) - 1px);
+   --clip-top: calc((var(--thumb-height) - var(--track-height)) * 0.5 - 0.5px);
+   --clip-bottom: calc(var(--thumb-height) - var(--clip-top));
+   --clip-further: calc(100% + 1px);
+   --box-fill: calc(-100vmax - var(--thumb-width, var(--thumb-height))) 0 0 100vmax currentColor;
+
+   width: var(--thumb-width, var(--thumb-height));
+   background: linear-gradient(currentColor 0 0) scroll no-repeat left center / 50% calc(var(--track-height) + 1px);
+   background-color: currentColor;
+   box-shadow: var(--box-fill);
+   border-radius: var(--thumb-width, var(--thumb-height));
+   margin-top: 7.5px;
+   filter: brightness(100%);
+   clip-path: polygon(100% -1px,
+       var(--clip-edges) -1px,
+       0 var(--clip-top),
+       -100vmax var(--clip-top),
+       -100vmax var(--clip-bottom),
+       0 var(--clip-bottom),
+       var(--clip-edges) 100%,
+       var(--clip-further) var(--clip-further));
+ }
+
+ .slider::-webkit-slider-runnable-track {
+   --track-color: gray;
+   background: linear-gradient(var(--track-color) 0 0) scroll no-repeat center / 100% calc(var(--track-height) + 1px);
+ }
+
+ .tooltip {
+   position: absolute;
+   background: rgba(0, 0, 0, 0.75);
+   color: #fff;
+   padding: 4px 8px;
+   border-radius: 4px;
+   font-size: 12px;
+   white-space: nowrap;
+   transform: translateX(-50%);
+   bottom: 15px;
+   display: none;
+   pointer-events: none;
+ }
+
+ .slider:hover+.tooltip,
+ .slider:focus+.tooltip {
+   display: block;
+ }
+
+ .timeVideo {
+   color: white;
+ }
+
+ .mainVideo {
+   height: auto;
+ }
+
+ .progressBar {
+   width: 100%;
+   margin-top: 5px;
+ }
+
+ /* full screen */
+
+ .fullscreen {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: auto;
+   z-index: 1;
+ }
+
+
+
+ .fullscreen .controls {
+   bottom: 20px;
+   position: absolute;
+   width: 100%;
+ }
+
+ /* loading */
+
+ .loadingOverlay {
+   position: absolute;
+   height: auto;
+   left: 50%;
+   top: 50%;
+   transform: translateX(-50%);
+   transform: translateY(-50%);
+   background: transparent;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 1;
+ }
+
+ /* setting */
+
+
+
+ /* cài đặt tốc độ phát lại */
+
+ .settings {
+   width: 200px;
+   margin: 20px;
+   font-family: Arial, sans-serif;
+   position: absolute;
+   bottom: 50px;
+   right: 10px;
+   background-color: #3c3c3c;
+   border-radius: 4px;
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+   z-index: 1;
+   padding: 10px;
+ }
+
+ .settingsList {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+ }
+
+ .settingsItem {
+   display: flex;
+   align-items: center;
+   padding: 10px;
+   cursor: pointer;
+   transition: background-color 0.2s ease;
+ }
+
+ .settingsItem:hover {
+   background-color: #3c3c3c;
+ }
+
+ .controlButtonSettingSpeed {
+   color: white;
+   background: transparent;
+   border: none;
+   font-size: 1.5rem;
+   cursor: pointer;
+   padding: 10px;
+   text-align: center;
+ }
+
+ .controlButtonSettingSpeed:active {
+   background-color: #838383;
+ }
+
+ .icon {
+   margin-left: auto;
+ }
+
+ .playback {
+   display: block;
+ }
+
+ .playbackHeader {
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px;
+ }
+
+ .backArrow {
+   cursor: pointer;
+   margin-right: 10px;
+ }
+
+ .playbackList {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+ }
+
+ .playbackItem {
+   padding: 10px;
+   cursor: pointer;
+   transition: background-color 0.2s ease;
+   color: white;
+   font-weight: 500;
+ }
+
+ .playbackItem:hover {
+   background-color: #e0e0e0;
+ }
+
+ /* Đánh dấu mục đã chọn */
+ .active {
+   background-color: #838383;
+   color: #fff;
+ }
+
+ /* auto play  */
+
+ .controlButtonAuto {
+   background: transparent;
+   border: 0.5px solid gray;
+   font-size: 150%;
+   cursor: pointer;
+   padding: 0;
+   border-radius: 12px;
+ }
+
+ .controlButtonAuto:hover {
+   border: 0.5px solid gray;
+ }
+
+
+ .toggleContainer {
+   width: 50.2px;
+   height: 20.1px;
+   background-color: #303030;
+   border-radius: 12px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+ }
+
+ .toggleContainer:hover {
+   background-color: #404040;
+ }
+
+ .toggleContainer:active {
+   background-color: white;
+ }
+
+ .toggleContainer.activeToggleContainer {
+   background-color: #3498db;
+ }
+
+ .toggleSwitch {
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   display: flex;
+   box-sizing: border-box;
+   transition: transform 0.3s ease;
+ }
+
+ .toggleSwitch.active {
+   background-color: white;
+   transform: translateX(30px);
+ }
+
+ .icon {
+   width: 20px;
+   height: 20px;
+   color: #000000;
+   background-color: white;
+   border-radius: 50%;
+ }

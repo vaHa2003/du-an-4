@@ -1,0 +1,122 @@
+.container {
+    margin: 0 auto;
+    display: flex;
+    padding: 80px 40px;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.container__body {
+    width: 100%;
+    max-width: 1200px;
+    padding: 32px;
+    margin: 0;
+    height: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #F5FEFF 0%, #C4EAF6 100%);
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.header__title {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    color: var(--primary);
+    letter-spacing: -0.68px;
+}
+
+.bodyConatiner {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bodyContainer__left {
+    max-width: 729px;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.menu__icon {
+    width: 24px;
+    height: 24px;
+    object-fit: scale-down;
+}
+
+.menu__content {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: auto;
+    height: auto;
+    color: #000;
+}
+
+.menu__content__b {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--default);
+}
+
+.bodyContainer__right {
+    max-width: 306px;
+    height: 306px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    border-radius: 12px;
+}
+
+.bodyContainer__right__img {
+    width: 306px;
+    height: 306px;
+}

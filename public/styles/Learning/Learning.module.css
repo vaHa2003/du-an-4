@@ -1,0 +1,516 @@
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    padding: 74px 0px 60px;
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex: 1;
+}
+
+.fixed {
+    padding-top: 50px;
+    width: 21.67%;
+    min-width: 400px;
+    height: 100%;
+    /* flex-shrink: 0; */
+}
+
+.flexGrow {
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+    /* overflow-y: auto; */
+}
+
+
+
+
+
+
+/* Video */
+
+.Video {
+    height: 100%;
+    flex: 1;
+    background-color: var(--gray-00);
+}
+
+.Video iframe {
+    padding: 0px 64px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.body {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 24px 64px;
+    gap: 24px;
+    width: 100%;
+    max-height: 291px;
+
+}
+
+.bodyTop {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.noteTap {
+    width: 100%;
+}
+
+/* FQA */
+
+
+.FAQ {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(4px);
+    height: 100%;
+}
+
+
+
+
+
+.timeUpdate {
+    color: var(--text-50);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.titleCourse {
+    margin-top: 8px;
+    color: var(--text-100);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+
+
+.content {
+    font-size: 1rem;
+    font-weight: 400;
+    column-gap: 12px;
+}
+
+.actionBar {
+    height: 60px;
+    width: 100%;
+    background-color: var(--gray-100);
+    padding: 0px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    position: fixed;
+    bottom: 0;
+}
+
+.faq {
+    cursor: pointer;
+}
+
+.faq:hover svg path,
+.faq:hover svg circle {
+    /* stroke: var(--blue-80); */
+    /* Màu stroke mới khi hover */
+    fill: var(--blue-90);
+    /* Màu fill mới cho các phần tử có fill (ví dụ như circle nhỏ) */
+}
+
+.ctaNextPev {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 12px;
+
+}
+
+.nextPrevCourse {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 16px;
+    border: 1px solid var(--blue-50);
+    border-radius: 12px;
+    color: var(--blue-50);
+
+    &:hover {
+        color: var(--text-0);
+        background: var(--blue-50);
+    }
+}
+
+.nextPrevCourse svg {
+    stroke: var(--blue-50);
+}
+
+.nextPrevCourse:hover svg {
+    stroke: var(--text-0);
+}
+
+.cateSec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.coursesContent {
+    max-height: 100%;
+    overflow-y: auto;
+    padding-top: 32px;
+
+
+}
+
+.listCourse {
+    height: 100%;
+    padding: 12px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    cursor: pointer;
+    position: relative;
+    background-color: var(--gray-100);
+}
+
+.searchContainer {
+    position: fixed;
+    top: 10%;
+    z-index: 100;
+    margin: 0 12px;
+    padding: 8px;
+    border-radius: 12px;
+    background: var(--gray-90);
+    display: flex;
+    gap: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+    &:hover {
+        outline: 1px solid var(--blue-50);
+    }
+}
+
+
+
+.inputSearch {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.iconCatesec {
+    padding: 8px;
+    background-color: var(--blue-95);
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.listCourse {
+    background-color: var(--gray-100);
+}
+
+
+.listItem__title {
+    position: sticky;
+    top: 4px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    background-color: var(--gray-100);
+    z-index: 2;
+
+    &:hover {
+        background-color: var(--blue-95);
+    }
+}
+
+.listItem__titleText {
+    color: var(--text-100);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    white-space: nowrap;
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    width: 80%;
+}
+
+.listItem__contentCount {
+    margin-right: 4px;
+}
+
+.listItem__totalDuration {
+    margin-left: 4px;
+}
+
+.listItem__contentCount,
+.listItem__totalDuration {
+    color: var(--text-75);
+    font-size: .875rem;
+    font-weight: 400;
+    display: inline;
+}
+
+.listItem {
+    background-color: var(--gray-100);
+}
+
+.listItem__docName {
+    display: inline-block;
+    width: 90%;
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.rotated {
+    rotate: 180deg;
+}
+
+
+.listItem__docs {
+    background-color: var(--gray-100);
+    padding: 8px 0px;
+}
+
+.listItem__doc {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+
+    &:hover {
+        background-color: var(--blue-95);
+    }
+}
+
+
+
+.listItem__docTitle {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.doc_title {
+    display: flex;
+    gap: 12px;
+}
+
+.listItem__iconSuccess {
+    width: 12px;
+    height: 12px;
+}
+
+.devBox {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: relative;
+}
+
+.devBox::before {
+    content: "";
+    position: absolute;
+    left: -64px;
+    top: 0px;
+    width: 64px;
+    height: 100%;
+    background-color: #fff;
+}
+
+.devBox::after {
+    content: "";
+    position: absolute;
+    right: -14px;
+    top: 0px;
+    width: 32px;
+    height: 100%;
+    background-color: #fff;
+}
+
+.videoContainer {
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: var(--gray-95);
+}
+
+/* wapperQuesson */
+.wapperQuesson {
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+/* wapperQuestion */
+
+.wapperQuestion {
+    margin: 0 auto;
+    margin-top: 32px;
+    width: 720px;
+}
+
+.titleQuestion {
+    margin-top: 24px;
+    color: var(--text-75);
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.subtitleQuestion {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--text-50);
+    margin-top: 4px;
+}
+
+.tfQuesion,
+.multipleQuesion,
+.filleQuesion {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+}
+
+.listQuestion {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.itemQuestion {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    gap: 28px;
+
+    background-color: var(--gray-100);
+    border-radius: 12px;
+    box-shadow: -6px 0px 3px 0px rgba(35, 125, 247, 0.30) inset;
+    transition: box-shown 0.5s ease-in-out;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 400;
+
+    &:hover {
+        box-shadow: 0px 0px 2px 0px #237DF7;
+    }
+}
+
+/* button */
+
+.ctaQuestion {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.btnAnswer {
+    padding: 8px 16px;
+    min-width: 120px;
+    color: var(--text-50);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 24px;
+    border: none;
+    border-radius: 12px;
+    background: var(--gray-100);
+
+    &:hover {
+        opacity: .7;
+    }
+}
+
+.btnAnswerActive {
+    border: 1px solid var(--blue-50);
+    color: var(--blue-50);
+
+    &:hover {
+        background-color: var(--blue-50);
+        color: var(--text-0);
+    }
+}
+
+.itemAnswer {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    padding: 16px 24px;
+    display: flex;
+    gap: 24px;
+}
+
+/* Codes */
+
+.wapperCode {
+    width: 100%;
+    background-color: var(--gray-95);
+    height: 100%;
+}
+
+/* tippyNoteList */
+
+.tippyNoteList {
+    min-width: 720px;
+    position: absolute !important;
+    right: 0;
+    top: auto;
+    margin-right: 0 !important;
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(4px);
+    height: 100vh;
+
+}
+
+.NoteList {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-top: 56px;
+    width: 100%;
+    background-color: rgba(205, 205, 205, .5);
+    backdrop-filter: blur(10px);
+    height: 100vh;
+}

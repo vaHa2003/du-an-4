@@ -1,0 +1,241 @@
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    padding: 80px 40px;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
+.skillContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    width: 1200px;
+    max-width: 1200px;
+    padding: 0px 32px;
+    margin: 0;
+
+}
+
+.skillMain {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 64px;
+    flex-direction: column;
+}
+
+.skill__header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.skill__header__title {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+
+.header__title {
+    margin: 0;
+    padding: 0;
+    color: var(--primary);
+    display: flex;
+    width: auto;
+    height: auto;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.68px;
+    align-items: center;
+}
+
+.header__subTitle {
+    margin: 0;
+    padding: 0;
+    color: var(--text-75);
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.imgHeader {
+    width: 288px;
+    height: 221px;
+    object-fit: scale-down;
+}
+
+.skill__body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.skill__body__header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+
+.body__title {
+    margin: 0;
+    padding: 0;
+    color: var(--primary);
+    display: flex;
+    width: auto;
+    height: auto;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.68px;
+    align-items: center;
+}
+
+.body__subTitle {
+    margin: 0;
+    padding: 0;
+    color: var(--text-75);
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.body__main {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    margin: 0;
+    padding: 0;
+    width: 183.2px;
+    max-width: 183.2px;
+    height: 120px;
+    min-height: 120px;
+    border-radius: 12px;
+    display: flex;
+    padding: 20px 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    border: 1px solid var(--blue-30);
+}
+
+.box__icon {
+    width: 24px;
+    height: 24px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.box__body {
+    width: 100%;
+    height: auto;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box__title {
+    width: 100%;
+    min-width: 163px;
+    max-width: 163px;
+    height: auto;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+}
+
+
+.webDemo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.bg::after {
+    content: '';
+    width: 100%;
+    height: 104px;
+    position: absolute;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.00) 0%, #FFF 100%);
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.bg::before {
+    content: '';
+    width: 100%;
+    height: 164.22px;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 100%);
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.demoImg {
+    width: 100%;
+    height: auto;
+    object-fit: scale-down;
+}

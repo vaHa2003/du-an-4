@@ -1,0 +1,198 @@
+.container {
+    min-width: 1200px;
+    margin: 100px auto;
+    font-family: "Be Vietnam Pro";
+}
+
+.title {
+    text-align: center;
+    color: var(--text-100);
+    font-size: 3.75rem;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -1.2px;
+    position: relative;
+}
+
+.title::before {
+    content: "";
+    display: inline-block;
+    background-image: url("/img/groupLeft3.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95px;
+    height: 86px;
+    margin-right: 32px;
+}
+
+.title::after {
+    content: "";
+    display: inline-block;
+    background-image: url("/img/Groupright3.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95px;
+    height: 86px;
+    margin-left: 32px;
+}
+
+.Wapper {
+    margin-top: 32px;
+    padding: 40px;
+}
+
+.itemList {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image {
+    width: 240px;
+    height: 144px;
+    object-fit: cover;
+    border-radius: 12px;
+
+}
+
+.descImg {
+    max-width: 240px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    white-space: nowrap;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+    padding-bottom: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+
+    &:hover {
+        opacity: .8;
+    }
+}
+
+.content {
+    color: var(--text-0);
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.title2 {
+    text-align: left;
+    color: var(--text-100);
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 42px;
+    padding: 10px 64px;
+    letter-spacing: -1.2px;
+    position: relative;
+}
+
+.itemList2 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3.75rem;
+}
+
+.image2 {
+    width: 632px;
+    height: 480px;
+    border-radius: 5px;
+    object-fit: cover;
+    position: relative;
+}
+
+.content2,
+.content3 {
+    position: absolute;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    width: calc(100% - 40px);
+    left: 20px;
+}
+
+.content2 {
+    bottom: 25%;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.content3 {
+    bottom: 65px;
+    overflow: hidden;
+    max-height: 3.6rem;
+}
+
+.cardPost {
+    display: flex;
+    width: 504px;
+    align-items: flex-start;
+    gap: 12px;
+    padding-left: 80px;
+    margin-bottom: 24px;
+}
+
+.cardImage {
+    width: 240px;
+    height: 144px;
+    border-radius: 5px;
+}
+
+.cardContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 144px;
+    justify-content: space-between;
+}
+
+.cardTitle {
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.cardDescription {
+    text-align: left;
+    width: 252px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--text-text-m, #000);
+    margin-bottom: 8px; 
+}
+
+
+.cardFooter {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.cardTime,
+.cardName {
+    margin: 0;
+}

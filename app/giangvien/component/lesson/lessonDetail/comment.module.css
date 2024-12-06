@@ -1,0 +1,169 @@
+.pageContainer {
+  position: absolute;
+  top:70px;
+ 
+  left: 250px;
+  width: 800px;
+  height: 950px;
+  background-color: white;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 32px;
+  z-index: 1000;
+
+}
+.thanhcuon{
+    height: 500px;
+    width: 100%;
+    overflow: auto; /* Tạo thanh cuộn khi nội dung tràn */
+    
+}
+
+
+.header{
+    height: 72px;
+    display: flex;
+    justify-content: space-between; /* Đẩy .left và .right về hai đầu */
+  
+    
+}
+.title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.filterBar {
+
+  margin-left: 0px;
+}
+.formSelect {
+  width: fit-content;
+  border: none;
+}
+
+.formSelect option {
+  padding: 12px 20px;
+}
+.phanduoi{
+    display: block;
+    gap: 12px;
+    padding-bottom: 32px;
+   
+}
+
+.avatar {
+    display: flex;
+    padding: 12px;
+}
+.avatar img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.khuvucten{
+    display: block;
+    padding-left: 4px;
+}
+.name{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    
+    
+}
+.ngaygio{
+    font-size: 10px;
+    color: #666666;
+    font-weight: 400;
+    line-height: 16px;
+}
+.binhluan{
+     padding-left: 12px;
+}
+.option_button_group {
+   height: 38px;
+   width: 189px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 0px 8px 8px 0px;
+}
+.vietcomment{
+    height: 152px;
+    padding-left: 32px;
+    padding-top: 32px;
+   
+    gap:12px;
+    display: flex;
+}
+.vietcomment img{
+     width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.khuicon{
+    background-color: #FAFAFA;
+    height: 100px;
+    width: 100%;
+    border-radius: 12px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    gap:14px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    display: block;
+}
+.danicon{
+    display: flex;
+    gap:12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.danicon img {
+    height: 24px;
+    width: 24px;
+    top: 2px;
+    left: 2px;
+}
+.noidung{
+     padding: 8px 12px;
+    font-size: 16px;
+    color: #666666;
+    line-height: 24px;
+    font-weight: 400;
+    gap:12px;
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none; /* Loại bỏ viền đen khi click vào */
+    
+}
+.buttongroupvip{
+    display: flex;
+    padding: 32px;
+    justify-content: end;
+    gap:24px;
+}
+.btn1{
+    width: 79px;
+    height: 40px;
+    border-radius: 12px;
+    
+    padding: 8px 24px;
+    gap: 10px;
+    background: white;
+    color: #438FF7;
+}
+.btn2{
+    width: 96x;
+    height: 40px;
+    border-radius: 12px;
+    
+    padding: 8px 24px;
+    gap: 10px;
+    background: white;
+    color: #438FF7;
+}
+
+.closeButton {
+  float: right;
+}

@@ -1,0 +1,12 @@
+.Video {
+
+    flex: 1;
+    background-color: var(--gray-00);
+}
+
+.Video iframe {
+    padding: 0px 64px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

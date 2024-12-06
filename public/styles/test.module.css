@@ -1,0 +1,25 @@
+.listContainer {
+    margin: 20px;
+}
+
+.listItem {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.listTitle {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+.subList {
+    margin-top: 10px;
+    padding-left: 20px;
+    list-style-type: circle;
+}
+
+.subList li {
+    padding: 5px 0;
+}

@@ -1,0 +1,61 @@
+.content {
+  background-color: rgb(255, 255, 255);
+}
+
+.content h3,
+.quizTitle,
+.quizDesc {
+  font-size: 20px;
+}
+
+.quizOption {
+  border: 1px solid;
+  border-left-width: 0px;
+  border-right-width: 6px;
+  border-end-end-radius: 8px;
+  border-start-end-radius: 8px;
+  border-color: var(--blue-80);
+}
+
+.contentFooter {
+  background-color: rgb(255, 255, 255);
+  min-height: 50px;
+}
+
+.videoContainer {
+    width: 874px;
+  height: 748px; /* Adjust height automatically */
+}
+
+.videoContainer video {
+  width: 874px;
+  height: 748px; /* Adjust height automatically */
+}
+
+.date,
+.accordionHeaderInfo,
+.accordionChapter {
+  font-size: 10px;
+}
+
+.footerChapter {
+  font-size: 14px;
+}
+
+.footerBtnStart {
+  border-radius: 0%;
+  color: var(--blue-60);
+  background-color: var(--blue-90) !important;
+}
+
+.searchIcon {
+  color: var(--blue-60);
+}
+
+.chapterBtn:hover {
+  background-color: var(--blue-95);
+}
+
+.quizContainer {
+  height: 575px;
+}

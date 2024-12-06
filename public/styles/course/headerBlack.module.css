@@ -1,0 +1,29 @@
+.nav {
+    width: 100%;
+    padding: 16px 40px;
+    background-color: var(--gray-00);
+    margin: 0px;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    color: var(--text-0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.menuItem {
+    color: inherit;
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 24px;
+}

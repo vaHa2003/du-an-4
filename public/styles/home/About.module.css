@@ -1,0 +1,128 @@
+.container {
+    width: 100%;
+    max-width: 1440px;
+    height: 923px;
+    max-height: 923px;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 40px;
+    margin: 0;
+    position: relative;
+    gap: 80px;
+    align-items: center;
+    justify-content: center
+}
+
+.container__main {
+    width: 100%;
+    max-width: 1200px;
+    height: 561px;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    position: relative;
+}
+
+.container__main::before {
+    content: "";
+    display: block;
+    background-image: url("/02.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 190px;
+    height: 197px;
+    position: absolute;
+    left: -10%;
+    top: -35%;
+    z-index: -1;
+}
+
+.container__bg {
+    position: absolute;
+    width: 1070px;
+    height: 636px;
+    border-radius: 0px 400px 400px 0px;
+    background: linear-gradient(90deg, #003DB7 0%, #00BCD2 100%);
+    z-index: -10000;
+    left: 0;
+    left: -53px;
+    bottom: -38.625px;
+}
+
+.left__container {
+    margin: 0;
+    padding: 0;
+    width: 360px;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.left__container__h3 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    color: var(--text-0);
+}
+
+.left__container__h2 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: auto;
+    height: auto;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -0.68px;
+    color: var(--text-0);
+}
+
+.left__container__h4 {
+    margin: 0;
+    padding: 0;
+    padding-top: 19px;
+    display: flex;
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--text-0);
+}
+
+.right__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.right__container__img {
+    width: 720px;
+    height: 480px;
+    max-width: 720px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.right__container__bg {
+    position: absolute;
+    bottom: 10px;
+    right: -30px;
+    width: 700px;
+    height: 480px;
+    border-radius: 20px;
+    opacity: 0.15;
+    background: linear-gradient(90deg, #E62A6D 0%, #00BCD2 100%);
+    z-index: -100000;
+}

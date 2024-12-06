@@ -1,0 +1,45 @@
+/* .mar {
+  margin-top: 10vh;
+} */
+.container {
+  padding: 32px 40px !important;
+  background-color: #f5f6fa;
+  /* margin-top: 10vh; */
+}
+.chart {
+  padding-top: 32px;
+}
+.bg_chart {
+  background-color: #fff;
+  padding: 20px;
+}
+.bg_chart span {
+  font-size: 35;
+}
+.tag_notice {
+  margin-bottom: 32px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card_notice {
+  background-color: #fff;
+  width: 22%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 2px 0px rgba(40, 41, 61, 0.04),
+    0px 4px 8px 0px rgba(96, 97, 112, 0.16);
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chartContainer {
+  width: 100%; /* Thiết lập chiều rộng cho container */
+  height: 148px; /* Thiết lập chiều cao cho container */
+  position: relative; /* Để có thể định vị canvas chính xác */
+}
+
+

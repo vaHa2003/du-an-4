@@ -1,0 +1,61 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+}
+.title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.content {
+  height: 3.6em;
+  min-width: 250px;
+  max-width: 300px;
+  overflow: hidden;
+  line-height: 1.2em;
+}
+.altContent {
+  line-height: 1.2em;
+}
+.footer {
+  font-size: 10px;
+}
+.mainContainer {
+  padding-inline: 64px;
+}
+.mainContainer img {
+  border-radius: 6px;
+}
+.heroArticleContainer {
+  max-height: 480px;
+  max-width: 630px;
+}
+.heroTitleArticle {
+  overflow: hidden;
+  line-height: 1em;
+  height: 1em;
+}
+.heroArticleText {
+  position: absolute;
+  top: 75%;
+  left: 5%;
+  max-width: 600px;
+}
+.heroArticle {
+  overflow: hidden;
+  line-height: 1.2em;
+  height: 3.6em;
+}
+.heroArticle p,
+.heroArticle h2 {
+  position: relative;
+}
+
+.articleLRInfo {
+  font-size: 10px;
+}
+.articleLRColorText {
+  color: #45daee;
+}

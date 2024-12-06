@@ -1,0 +1,165 @@
+.customOffcanvas {
+  width: 450px !important;
+  max-height: 1022px !important;
+  overflow-y: scroll; /* Bật cuộn dọc */
+  scrollbar-width: none; /* Ẩn thanh cuộn trên Firefox */
+}
+
+.header {
+  display: flex;
+  height: 48px;
+  width: 450px;
+}
+.title {
+  padding-left: 12px;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  color: #000000;
+  font-size: 14;
+  font-weight: 500;
+}
+.customCloseButton {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.closeIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.processbar {
+  height: 60px;
+  width: 60px;
+  margin-left: 27px;
+}
+
+.progresstext {
+  margin-left: 10px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  width: 450px;
+  height: 55px;
+  margin-bottom: 24px;
+}
+
+.verticalLine1 {
+  height: 52px;
+  width: 3px;
+  background-color: #24a148;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.verticalLine2 {
+  height: 52px;
+  width: 3px;
+  background-color: #15c8e0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.verticalLine3 {
+  height: 52px;
+  width: 3px;
+  background-color: #4589ff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.text1 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+}
+.text2 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #666666;
+}
+
+.tableContainer {
+  max-height: 450px; /* Đặt chiều cao tối đa */
+  overflow-y: scroll; /* Bật cuộn dọc */
+  scrollbar-width: none; /* Ẩn thanh cuộn trên Firefox */
+}
+
+.tableContainer::-webkit-scrollbar {
+  display: none; /* Ẩn thanh cuộn trên Chrome và Safari */
+}
+
+.table thead tr {
+  border: none;
+}
+.table thead tr td {
+  padding: 20px 10px;
+  background: var(--Gray-gray-95, #fafafa);
+  border: none;
+  border-bottom: 1.5px solid #b3b3b3;
+}
+.table thead tr td:nth-child(2) {
+  text-align: center;
+}
+.table thead tr td:nth-child(4) {
+  text-align: center;
+}
+
+.table tbody tr td {
+  padding: 40px 10px;
+  border: none;
+  border-bottom: 1.5px solid #b3b3b3;
+}
+.table tbody tr td:nth-child(4) {
+  text-align: center;
+}
+.table thead td {
+  white-space: nowrap;
+}
+
+.option_button {
+  display: flex;
+  max-width: 185px;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafa;
+  border-radius: 5px;
+  border: 1px solid #dbdbdb;
+  float: right;
+}
+
+.option_button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  width: 63px;
+  height: 38px;
+  margin: 0;
+}
+.option_button a:nth-child(2) {
+  border-left: 1px solid #dbdbdb;
+  border-right: 1px solid #dbdbdb;
+}
+.option_button a img {
+  width: 24px;
+  height: 24px;
+}
+.option_button_group {
+  /* display: flex; */
+  /* height: 108px; */
+  padding: 16px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 0px 8px 8px 0px;
+}

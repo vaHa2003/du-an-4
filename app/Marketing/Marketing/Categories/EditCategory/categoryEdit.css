@@ -1,0 +1,24 @@
+.header-add {
+  padding: 25px 32px;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 42px;
+  left: -2%;
+}
+.body-add {
+  padding: 25px 32px;
+}
+.wrapper {
+  border-radius: 14px;
+  height: 812px;
+}
+.form {
+  background-color: var(--gray-90);
+  font-size: 14px;
+  width: 360px;
+}
+.btnAdd {
+  height: 64px;
+  width: 275px;
+  font-size: 20px;
+}

@@ -1,0 +1,26 @@
+.comments {
+  min-width: 280px;
+}
+
+.name {
+  color: var(--blue-30);
+  font-weight: 600;
+}
+
+.seperator {
+  border-left: solid 1px var(--gray-50);
+}
+
+.comment_input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  resize: none;
+  box-sizing: border-box;
+}
+
+.btn_disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}

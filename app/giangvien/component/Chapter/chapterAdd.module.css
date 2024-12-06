@@ -1,0 +1,81 @@
+.header_add{
+padding: 25px 32px;
+font-size: 34px;
+font-weight: 500;
+line-height: 42px;
+left: -2%;
+}
+.body_add{
+    padding: 25px 32px;
+   
+    
+    
+}
+.wapper{
+background-color:#FFFFFF ;
+width: 1137px;
+height: 812px;
+
+padding: 32px;
+
+}
+.formnhap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bentrong{
+    display: block;
+    margin: 12px;
+    
+   
+}
+.selectne {
+  position: relative;
+width: 360px;
+
+}
+.inputne{
+    margin-top: 10px;
+    width: 360px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    background: #F2F2F2;
+    margin-bottom: 12px;
+    outline: none;
+    padding-left: 12px;
+
+     appearance: none; /* ẩn mũi tên mặc định */
+  -webkit-appearance: none; /* ẩn mũi tên trên Safari */
+   
+
+}
+.selectne img {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; 
+  width: 16px; 
+  height: auto;
+  
+}
+
+
+.btnthemvao{
+    width: 274px;
+    height: 64px;
+    border-radius: 12px;
+    background-color: #438FF7;
+    border: none;
+    margin-top: 12px;
+   
+    
+    
+}
+.chonutragiua {
+  display: flex;
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+}

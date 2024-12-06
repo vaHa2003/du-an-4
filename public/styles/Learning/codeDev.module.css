@@ -1,0 +1,219 @@
+.containerDev {
+    width: 100%;
+    height: 100%;
+    min-width: 542px;
+    background: var(--gray-100);
+    padding-top: 20px;
+}
+
+.DevLearning {
+    padding-top: 2px;
+    margin-top: 0px;
+    height: 100%;
+    background-color: var(--gray-95);
+}
+
+.resize-handle {
+    width: 10px;
+    height: 100%;
+    background: var(--blue-50);
+    position: absolute;
+    right: 0;
+
+}
+
+.nav {
+    display: flex;
+    gap: 2px;
+    margin-left: 20px;
+}
+
+.itemNav {
+    color: var(--text-75);
+    font-size: .875rem;
+    font-weight: 500;
+    padding: 0px 12px;
+    line-height: 24px;
+    border-radius: 6px 6px 0px 0px;
+    border-top: 1px solid var(--gray-95);
+    border-right: 1px solid var(--gray-95);
+    border-left: 1px solid var(--gray-95);
+    background: var(--gray-95);
+    cursor: pointer;
+
+    &:hover {
+        outline: 1px solid var(--blue-50);
+    }
+}
+
+.itemNavActed {
+    outline: 1px solid var(--blue-50);
+}
+
+.boxTextContent {
+    width: 100%;
+    display: flex;
+    gap: 4px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.lines {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 4px;
+    /* max-height: 60vh; */
+    overflow: hidden;
+    margin-top: 20px;
+    gap: 10px;
+    background-color: var(--gray-90);
+    border-right: 1px solid var(--blue-50);
+}
+
+.lines span {
+    color: var(--text-25);
+    font-size: .875rem;
+    font-weight: 500;
+    margin-left: 4px;
+}
+
+.textCode {
+    margin-top: 2px;
+    margin-left: 2px;
+    outline: none;
+    width: calc(100% - 10px);
+    padding: 12px;
+    height: 60vh;
+    max-height: 60vh;
+    border-left: 1px solid var(--blue-50);
+    border-bottom: 1px solid var(--blue-50);
+    border: none;
+    line-height: 1.5;
+    overflow-y: auto;
+}
+
+.cta {
+    display: flex;
+    justify-content: end;
+    padding: 8px 0px;
+    gap: 12px;
+    padding-right: 24px;
+    border-top: 1px solid var(--blue-50);
+}
+
+.btnCtaDev {
+    padding: 4px 8px;
+    border-radius: 6px;
+    border: 1px solid var(--blue-50);
+    color: var(--blue-50);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 24px;
+    background-color: transparent;
+
+    &:hover {
+        background-color: var(--blue-50);
+        color: var(--text-0);
+    }
+}
+
+.showResult {
+    width: 100%;
+    padding: 32px;
+    position: relative;
+}
+
+/* SuggestBox */
+
+.SuggestBox {
+    max-width: 330px;
+    display: inline-flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 12px;
+    border-color: transparent;
+    background-color: var(--blue-05);
+    color: var(--text-0);
+    cursor: pointer;
+    box-shadow: 0px 32px 64px -12px rgba(16, 24, 40, 0.14);
+
+
+    &:hover {
+        opacity: .95;
+    }
+}
+
+.SuggestBoxTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.SuggestBoxTitle,
+.SuggestBoxContent {
+    color: inherit;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: justify;
+}
+
+/* Answer */
+
+.Answer {
+    background-color: var(--gray-95);
+    height: 100%;
+}
+
+.codeMain {
+    padding: 12px;
+    height: 100%;
+}
+
+.boxContent {
+    margin-top: 12px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.CodeFrame {
+    border-left: 1px solid var(--blue-50);
+}
+
+.itemNavContent {
+    width: 100%;
+    text-align: center;
+}
+
+.timeUpdate {
+    color: var(--text-50);
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+.titleCourse {
+    margin-top: 8px;
+    color: var(--text-100);
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.contentQues,
+.contentQuess {
+    color: var(--text-50);
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.contentQuess {
+    font-size: 1rem;
+}

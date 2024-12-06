@@ -1,0 +1,6 @@
+# Đảm bảo rằng tất cả các tệp văn bản sẽ được lưu trong Git với kiểu LF,
+# và chuyển sang kiểu CRLF khi được sử dụng trên Windows.
+* text=auto
+
+# Đặc biệt xử lý tệp SVG với kiểu kết thúc dòng LF
+*.svg text eol=lf

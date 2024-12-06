@@ -1,0 +1,191 @@
+.ContainerNote {
+    width: 50%;
+    padding: 12px 20px 12px 40px;
+    height: 100%;
+    overflow-y: hidden;
+    background-color: var(--gray-100);
+}
+
+.select {
+    min-width: 180px;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 12px;
+    align-items: center;
+    gap: 24px;
+    border-radius: 12px;
+    border: 1px solid var(---blue-50, #237DF7);
+    background: var(--gray-100gray-100, #FFF);
+    box-shadow: 0px 0px 6px 0px var(--blue-50, #237DF7) inset;
+
+    &:active {
+        opacity: .8;
+    }
+}
+
+.selectArr {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 12px;
+    align-items: center;
+    gap: 24px;
+    border-radius: 12px;
+    border: 1px solid var(---blue-50, #237DF7);
+    background: var(--gray-100gray-100, #FFF);
+    box-shadow: 0px 0px 6px 0px var(--blue-50, #237DF7) inset;
+
+    &:active {
+        opacity: .8;
+    }
+}
+
+/* .selectArr {
+    min-width: 150px;
+} */
+
+/* header */
+.headerNote {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.title {
+    color: var(--text-100);
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.48px;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.atcs {
+    gap: 12px;
+    display: flex;
+}
+
+.IconCanxel {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.select span {
+    color: var(--text-50);
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.tippyCataList,
+.tippyArrage {
+    width: 100%;
+    display: flex;
+    min-width: 180px;
+    padding: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+    border-radius: 12px;
+    border: 1px solid var(--blue-80);
+    background: var(--gray-100);
+    box-shadow: 0px 0px 6px 0px var(--blue-50) inset;
+}
+
+.tippyArrage {
+    min-width: 136px;
+}
+
+.CataList {
+    width: 100%;
+    padding-bottom: 4px;
+    border-bottom: 0.5px solid var(--blue-20);
+    cursor: pointer;
+
+    &:hover {
+        opacity: .7;
+    }
+}
+
+.CataList:last-child {
+    border: none;
+}
+
+.notesSection {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+}
+
+.notesSection {
+    padding-top: 24px;
+    padding-right: 24px;
+}
+
+.noteItem:first-child {
+    margin-top: 0px;
+}
+
+.noteItem {
+    margin-top: 24px;
+}
+
+.noteTitle1,
+.noteTitle2 {
+    color: var(--blue-20);
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.noteTitle2 {
+    font-weight: 400;
+}
+
+.bodyContent {
+    padding: 12px 0px;
+}
+
+.bodyContentTitle {
+    color: var(--blue-05);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.noteContent {
+    display: flex;
+    margin: 24px 0px;
+    padding: 8px 12px;
+    min-height: 60px;
+    border-radius: 6px;
+    border: 1px solid var(--blue-05);
+    height: auto;
+}
+
+.noteTime {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #1F582F;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+}

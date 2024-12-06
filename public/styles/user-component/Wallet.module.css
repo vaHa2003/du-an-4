@@ -1,0 +1,455 @@
+
+
+.container {
+    width: 100%;
+    max-width: 774px;
+    height: auto;
+    max-height: 764px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    gap: 12px;
+}
+
+.pay {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.left__info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+    max-width: 298px;
+}
+
+.name__info {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.name__info__title {
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--text-25);
+    margin: 0;
+    padding: 0;
+}
+
+.name__info__subTitle {
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    color: var(--text-100);
+    margin: 0;
+    padding: 0;
+}
+
+.balance__user {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.balance__user__number {
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    color: var(--blue-50);
+    margin: 0;
+    padding: 0;
+}
+
+.deposit {
+    width: auto;
+    max-width: 152px;
+    height: auto;
+    display: flex;
+    padding: 8px 12px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 12px;
+    border: 1px solid var(--cyan-40);
+    flex-direction: row;
+}
+
+.deposit__title {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--cyan-40);
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    max-width: 70px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.deposit__icon {
+    width: 48px;
+    height: 48px;
+}
+
+.card {
+    background-image: url('/img/payCard.svg');
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 24px;
+    width: 476px;
+    height: 300px;
+}
+
+.card__header {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.card__header__title {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    color: var(--text-75);
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    padding: 0;
+}
+
+.card__header__iconGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftIcon,
+.rightIcon {
+    width: 54px;
+    height: 54px;
+}
+
+.card__header__number {
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: -0.68px;
+    color: var(--text-100);
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    padding: 0;
+}
+
+.line__bg {
+    width: 476px;
+    height: 112px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: url('/img/bottomCard.svg');
+    display: flex;
+    flex-direction: row;
+    padding: 24px 36px 32px 24px;
+    gap: 77px;
+}
+
+.card__body__titleGroup {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    width: auto;
+    height: auto;
+}
+
+.title__element1 {
+    width: auto;
+    max-width: 125px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.card__title {
+    width: auto;
+    max-width: 125px;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--gray-100);
+    margin: 0;
+    padding: 0;
+}
+
+.card__name {
+    width: auto;
+    max-width: 125px;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--gray-100);
+    margin: 0;
+    padding: 0;
+}
+
+.title__element2 {
+    width: auto;
+    max-width: 80px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.card__title1 {
+    width: auto;
+    max-width: 80px;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--gray-100);
+    margin: 0;
+    padding: 0;
+}
+
+.card__pass {
+    width: auto;
+    max-width: 80px;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.48px;
+    color: var(--gray-100);
+    margin: 0;
+    padding: 0;
+}
+
+.logo__visa {
+    width: 54px;
+    height: 54px;
+}
+
+.history {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    gap: 24px;
+}
+
+.history__header {
+    margin: 0;
+    padding: 12px 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.history__header__title {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    color: var(--text-25);
+}
+
+.history__main {
+    margin: 0;
+    padding: 0;
+    border-radius: 12px;
+    background: var(--gray-100);
+    box-shadow: 0px 0px 4px 0px #237DF7;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: 240px;
+    min-height: 239px;
+    overflow: hidden;
+    overflow-y: auto;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.history__main__white {
+    margin: 0;
+    padding: 12px;
+    display: flex;
+    gap: 121px;
+    justify-content: flex-end;
+    height: auto;
+    border-bottom: 0.5px solid var(--gray-80);
+    background: var(--gray-100);
+}
+
+.history__main__title {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    flex-direction: row;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--text-50);
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+.history__main__subTitle {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    flex-direction: row;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--text-50);
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+.history__main__number {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    flex-direction: row;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--text-50);
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+.history__main__icon {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.history__main__icon__img {
+    width: 12px;
+    height: 12px;
+}
+
+.history__main__gray {
+    margin: 0;
+    padding: 12px;
+    display: flex;
+    gap: 121px;
+    justify-content: flex-end;
+    height: auto;
+    border-bottom: 0.5px solid var(--gray-50);
+    background: var(--gray-90);
+}

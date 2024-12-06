@@ -1,0 +1,81 @@
+
+
+#player {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1 !important;
+}
+
+.disable__info {
+    width: 100%;
+    position: absolute;
+    height: auto;
+    background-color: black;
+    z-index: 1000;
+    top: 0;
+    opacity: 0;
+}
+
+.disable__logo {
+    position: absolute;
+    width: 11%;
+    height: 50px;
+    background-color: black;
+    z-index: 1000 !important;
+    bottom: 0px;
+    right: 50px;
+    opacity: 0;
+}
+
+
+.containervieo {
+    position: relative;
+    background-color: aqua;
+    width: 80vw;
+    height: 90vh;
+}
+
+.disabled__start__header {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    z-index: 1000;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+
+.disabled__start__footer {
+    position: absolute;
+    background-color: black;
+    width: 30%;
+    height: 60px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    opacity: 0;
+}
+
+.disable__time {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 20px;
+    bottom: 35px;
+    left: 0;
+    z-index: 1000;
+    opacity: 0;
+}
+
+.disable__logo__fullScreen {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    z-index: 1000000000000;
+    bottom: 0px;
+    right: 50px;
+    /* opacity: 0; */
+}

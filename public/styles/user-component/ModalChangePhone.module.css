@@ -1,0 +1,185 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 101;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.modalOverlay.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modalOverlay.hide {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal {
+    background-color: var(--gray-100);
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    height: auto;
+    max-height: 596px;
+    padding: 24px;
+    border-radius: 12px;
+    transform: translateY(-30px);
+    position: relative;
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    gap: 32px;
+}
+
+.modal.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.modal.hide {
+    transform: translateY(-30px);
+    opacity: 0;
+}
+
+.closeBtn {
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    right: 9.5px;
+    top: 3px;
+    background: var(--gray-100);
+    border: none;
+}
+
+.closeBtn:hover,
+.closeBtn:hover,
+.closeBtn:hover {
+    background: var(--gray-80) !important;
+}
+
+.closeBtn__img {
+    width: 14.5px;
+    height: 14.5px;
+}
+
+.formChangeName {
+    background-color: var(--gray-100);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    max-height: 548px;
+    gap: 32px;
+}
+
+.modalBody {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 12px;
+}
+
+.modalBody__title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.48px;
+    color: var(--text-75);
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    padding: 0;
+}
+
+.modalBody__subTitle {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--text-75);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin: 0;
+    padding: 0;
+}
+
+.closeBtn2 {
+    display: flex;
+    width: 100%;
+    padding: 12px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: var(--blue-50);
+}
+
+.formControlChangeName {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 4px;
+}
+
+.formControlChangeName__label {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--text-50);
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    padding: 0;
+}
+
+.formControlChangeName__input {
+    padding: 16px 29px;
+    margin: 0;
+    border-radius: 12px;
+    border: 1px solid var(--gray-50);
+    width: 100%;
+}
+
+.link {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    color: var(--text-70);
+}
+
+.formControlChangeName__input::-webkit-outer-spin-button,
+.formControlChangeName__input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.formControlChangeName__input {
+    -moz-appearance: textfield; /* Firefox */
+}

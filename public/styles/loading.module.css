@@ -1,0 +1,10 @@
+.loading {
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.rotatingIcon {
+    animation: rotate .5s linear infinite;
+}

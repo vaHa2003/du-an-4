@@ -1,0 +1,70 @@
+.table thead tr {
+  border: none;
+}
+.table thead tr td {
+  padding: 10px 10px;
+  background: var(--Gray-gray-95, #fafafa);
+  border: none;
+  border-bottom: 1px solid #b3b3b3;
+  text-align: left;
+}
+
+.table td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+.table tbody tr td {
+  padding: 10px 10px;
+  border: none;
+  border-bottom: 1px solid #b3b3b3;
+  text-align: left;
+}
+
+.table thead td {
+  white-space: nowrap;
+}
+
+.option_button {
+  display: flex;
+  margin-top: -10px;
+  align-items: center;
+  border-radius: 5px;
+}
+.option_button a button {
+  width: 60px;
+  margin-left: 10px;
+}
+
+.option_button a {
+  padding: 5px 10px;
+  width: 63px;
+  height: 38px;
+  margin: 0;
+}
+
+.option_button a img {
+  width: 24px;
+  height: 24px;
+}
+.PrintBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.6px solid var(--Gray-gray-80, rgba(219, 219, 219, 1));
+  margin-right: 10px;
+  width: 48px;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 60px;
+}
+.PrintBtn img {
+  margin: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bold {
+  font-weight: bold;
+}

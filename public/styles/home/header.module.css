@@ -1,0 +1,264 @@
+footer {
+    margin: 0 !important;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+}
+
+.footer-container {
+    max-width: 100%;
+    height: 496px;
+    background-color: var(--gray-100);
+    display: flex;
+    padding: 80px 32px;
+    flex-direction: column;
+    gap: 32px;
+    margin: 0;
+}
+
+.footer-header {
+    width: 100%;
+    height: 218px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-profile-left {
+    /* width: 330px; */
+    padding: 0px;
+    height: 218px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.box-logo {
+    width: 224px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.logo-footer {
+    width: 162px;
+    height: 58px;
+}
+
+.text-1 {
+    width: auto;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: var(--text-100);
+}
+
+.box-logo-content {
+    width: 330px;
+    height: 112px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.box-logo-content-text {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--text-100);
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+.box-logo-content-img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-profile-right {
+    /* width: 773px; */
+    padding: 0;
+    height: 195px;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.footer-profile-right-row {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-about {
+    padding: 0;
+    width: auto;
+    height: 157px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-h5-title {
+    font-size: 14px;
+    line-height: 24px;
+    height: 24px;
+    margin: 0;
+    font-weight: 600;
+    color: var(--text-100);
+}
+
+.list-unstyled {
+    max-width: 110px;
+    height: 122px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 0px;
+}
+
+.list-unstyled-li {
+    margin: 0;
+    padding: 0;
+    max-width: 110px;
+    font-weight: 400;
+    font-size: 14px;
+    max-height: 18px;
+    color: var(--text-100);
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.footer-support {
+    width: auto;
+    height: 122px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 0px;
+    padding: 0;
+}
+
+.footer-info {
+    padding: 0;
+    width: auto;
+    height: 195px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-content {
+    width: 350px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-content-p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer-content-bdi {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.media-logo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+}
+
+.media-logo-link {
+    margin: 0;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+}
+
+.media-logo-img {
+    width: 24px;
+    height: 24px;
+}
+
+.copyright {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright-content {
+    width: 202px;
+    height: 30px;
+
+}
+
+.copyright-content p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-style: normal;
+    color: var(--text-50);
+}
+
+.copyright-service {
+    width: auto;
+    min-width: 417px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.service {
+    width: auto;
+    max-height: 24px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--text-50);
+}
+
+.text-blue {
+    color: var(--blue-50);
+}

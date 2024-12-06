@@ -1,0 +1,136 @@
+.container {
+    max-width: 394px;
+    height: fit-content;
+    display: flex;
+    padding: 8px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    border-radius: 8px;
+    border: 1px solid var(--gray-80);
+    background: #FFF;
+    box-shadow: 0px 0px 1px 0px rgba(40, 41, 61, 0.08), 0px 0.5px 2px 0px rgba(96, 97, 112, 0.16);
+}
+
+.header__title {
+    margin: 0;
+    display: flex;
+    padding: 4px 0px;
+    align-items: center;
+    gap: 4px;
+    border-bottom: 0.5px solid var(--Gray-gray-80, #DBDBDB);
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    color: var(--text-75);
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 8px;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: var(--gray-100);
+    border: none;
+}
+
+
+
+.link:hover {
+    background: var(--blue-50);
+}
+
+.link:active,
+.link:focus {
+    background: var(--blue-30);
+}
+
+.link:active .black,
+.link:focus .black {
+    display: none;
+}
+
+.link:active .white,
+.link:focus .white {
+    display: block;
+}
+
+.link:active .link__title,
+.link:focus .link__title {
+    color: var(--text-0);
+}
+
+.link:hover .black {
+    display: none;
+}
+
+.link:hover .white {
+    display: block;
+}
+
+.link__title {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    width: auto;
+    display: flex;
+    color: var(--text-75);
+}
+
+.link:hover .link__title {
+    color: var(--text-0);
+}
+
+.btn-close {
+    display: flex !important;
+    padding: 8px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 4px !important;
+    margin: 0 !important;
+}
+
+.black,
+.white {
+    width: 24px;
+    height: 24px;
+}
+
+.black {
+    display: block;
+}
+
+.white {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.none {
+    display: none;
+}
+
+.whiteCl {
+    color: var(--text-0);
+}
+
+.blue {
+    background: var(--blue-50);
+}

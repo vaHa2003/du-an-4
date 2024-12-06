@@ -1,0 +1,141 @@
+.container {
+    padding: 32px 40px !important;
+    background-color: #f5f6fa;
+    box-shadow: 0px 0px 2px 0px rgba(40, 41, 61, 0.04),
+        0px 4px 8px 0px rgba(96, 97, 112, 0.16);
+}
+
+.statContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 32px;
+}
+
+.courseInfo {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.courseImage {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+}
+
+.viewButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.chartContainer {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tag_notice {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-bottom: 20px;
+}
+
+
+
+.card_notice {
+    background-color: #fff;
+    flex: 1 1 260.25px;
+    width: 275px;
+    height: 114px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px 0px rgba(40, 41, 61, 0.04),
+        0px 4px 8px 0px rgba(96, 97, 112, 0.16);
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_notice span {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    height: 100%;
+}
+
+.card_notice h3 {
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+
+.card_notice p {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.chartAndCardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card_notice {
+    margin-top: 20px;
+}
+
+.chartAndColContainer {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-top: 0;
+}
+
+.chartContainer {
+    display: block;
+    padding: 24px;
+    width: auto;
+    height: 390px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.statisticalContainer {
+    display: flex;
+    gap: 20px;
+   
+    
+}
+
+.chartContainer {
+    flex: 1;
+}
+
+.cardNotice {
+    margin-bottom: 20px;
+}
+.canva{
+     width:100%;
+    height: 314px;
+}

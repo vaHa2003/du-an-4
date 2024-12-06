@@ -1,0 +1,80 @@
+.content {
+  margin: 40px 0px 20px 0px;
+}
+.content h4 {
+  padding: 0px 0px 30px 20px;
+}
+.table {
+  box-shadow: 0px -10px 10px 0 rgba(0, 0, 0, 0.1),
+    0px 10px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.table thead tr {
+  border: none;
+}
+.table thead tr td {
+  padding: 15px 10px;
+  background: var(--Gray-gray-95, #fafafa);
+  border: none;
+  border-bottom: 1px solid #b3b3b3;
+  text-align: left;
+}
+
+.table td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+.table tbody tr td {
+  padding: 20px 10px;
+  border: none;
+  border-bottom: 1px solid #b3b3b3;
+  text-align: left;
+}
+
+.table thead td {
+  white-space: nowrap;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.searchInputGroup {
+  display: flex;
+  width: 100%;
+  max-width: 250px;
+  height: 32px;
+  border-radius: 40px !important;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.searchInputGroup input {
+  border-radius: 40px;
+}
+
+.searchInput {
+  width: 250px;
+  height: 32px;
+  padding: 8px 12px;
+  border: 1px solid #c3c3c3;
+  border-radius: 40px !important;
+  outline: none;
+  transition: border-color 0.2s ease;
+  font-size: 14px;
+}
+
+.searchInput:focus {
+  border-color: var(--blue-60);
+}
+
+.searchIconWrapper {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #c3c3c3;
+  cursor: pointer;
+}

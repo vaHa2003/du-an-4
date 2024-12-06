@@ -1,0 +1,227 @@
+
+.container {
+    margin: 0;
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    padding: 80px 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.body {
+    display: flex;
+    width: 1200px;
+    max-width: 1200px;
+    padding: 40px 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    border-radius: 36px;
+    background: var(--cyan-90);
+}
+
+.header {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.heading {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    display: flex;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: -0.96px;
+    color: var(--text-100);
+}
+
+.subTitle {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    display: flex;
+    color: var(--cyan-40, #45DAEE);
+    font-family: "Be Vietnam Pro";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 1036px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    gap: 32px;
+    align-items: center;
+}
+
+.imgLeft {
+    width: 442.75px;
+    height: 668px;
+}
+
+.formRegister {
+    display: flex;
+    width: 561px;
+    height: auto;
+    padding: 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 16px;
+    background: var(--gray-100);
+}
+
+.fieldsetLogin {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.fieldsetLogin__title {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: var(--cyan-40, #45DAEE);
+    text-align: center;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: -0.68px;
+}
+
+.fieldsetLogin__subTitle {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.gap1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    gap: 36px;
+}
+
+.gap2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.formControlRegister {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    gap: 4px;
+}
+
+.formControlRegister__label {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.formControlRegister__input {
+    width: 497px;
+    height: 56px;
+    border-radius: 12px;
+    border: 1px solid rgba(102, 102, 102, 0.35);
+}
+
+.formControlRegister__input__text {
+    width: 497px;
+    height: 112px;
+    line-height: 24px;
+    border-radius: 12px;
+    border: 1px solid rgba(102, 102, 102, 0.35);
+    resize: none;
+}
+
+.note {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 8px 8px 8px 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--text-100);
+}
+
+.btn__submit {
+    display: flex;
+    height: 65px;
+    padding: 16px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 32px;
+    background: var(--cyan-40);
+    border: 0;
+}
+
+.btn__submit:hover,
+.btn__submit:active {
+    background-color: white !important;
+    color: var(--cyan-40);
+    outline: 1px solid var(--cyan-40);
+    outline-offset: -1px;
+}

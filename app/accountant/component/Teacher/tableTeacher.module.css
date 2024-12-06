@@ -1,0 +1,144 @@
+.table thead tr {
+  border: none;
+}
+.table thead tr td {
+  padding: 10px 10px;
+  background: var(--Gray-gray-95, #fafafa);
+  border: none;
+  border-bottom: 1px solid #b3b3b3;
+  text-align: left;
+}
+
+.table td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+/* .table tbody tr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.table tbody tr td {
+  padding: 10px 10px;
+  border: none;
+  border-bottom: 1px solid #b3b3b3;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.table thead td {
+  white-space: nowrap;
+}
+
+.option_button {
+  display: flex;
+  margin-top: -10px;
+  align-items: center;
+  border-radius: 5px;
+}
+.option_button a button {
+  width: 60px;
+  margin-left: 10px;
+}
+
+.option_button a {
+  padding: 5px 10px;
+  width: 63px;
+  height: 38px;
+  margin: 0;
+}
+
+.option_button a img {
+  width: 24px;
+  height: 24px;
+}
+.PrintBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.6px solid var(--Gray-gray-80, rgba(219, 219, 219, 1));
+  margin-right: 10px;
+  width: 48px;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 60px;
+}
+.PrintBtn img {
+  margin: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bold {
+  font-weight: bold;
+}
+.content {
+  background-color: #fff;
+}
+.generalInfo {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.headerContent {
+  background: linear-gradient(107.66deg, #063b42 2.8%, #0f96a8 98%),
+    linear-gradient(
+      252.45deg,
+      rgba(0, 0, 0, 0) 2.14%,
+      rgba(6, 59, 66, 0.2) 100%
+    );
+  width: 150px;
+  height: 72px;
+  box-sizing: border-box;
+  padding: 8px;
+  border-radius: 16px !important;
+  position: relative;
+}
+
+.headerContent__text {
+  width: 135px;
+  height: 104px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.text__hedding2 {
+  width: 100px;
+  height: auto;
+  font-weight: 700;
+
+  font-size: 9px;
+  color: white;
+  padding: 0;
+  margin: 0;
+
+  white-space: normal;
+}
+
+.text__hedding3 {
+  width: 145px;
+
+  font-weight: 500;
+
+  font-size: 8px;
+  color: var(--gray-80);
+  padding: 0;
+  margin: 0;
+}
+
+.text__img {
+  width: 13px;
+  height: 13px;
+}
+
+.headerContent__avt {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 66px;
+  height: 62px;
+}

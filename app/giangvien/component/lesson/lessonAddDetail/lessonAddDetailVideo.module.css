@@ -1,0 +1,181 @@
+.header_add{
+padding: 25px 32px;
+font-size: 34px;
+font-weight: 500;
+line-height: 42px;
+left: -2%;
+}
+.body_add{
+    padding: 25px 32px;
+   
+    
+    
+}
+.nutheader{
+max-width: 1137px;
+   padding: 0px 0px 0px 32px;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between; /* Đẩy .left và .right về hai đầu */
+    align-items: center;
+ 
+}
+.btnbaihoc{
+   width: 274px;
+
+    height: 64px;
+    border-radius: 12px;
+    background-color: #438FF7;
+    border: none;
+    margin-top: 12px;
+    
+    
+}
+.btnbaitap{
+   width: 274px;
+    height: 64px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    color: #438FF7;
+    
+    margin-top: 12px;
+   
+}
+.btncode{
+    width: 274px;
+    height: 64px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    color: #438FF7;
+    margin-top: 12px;
+   
+   
+}
+
+.wapper{
+background-color:#FFFFFF ;
+width: 1137px;
+height: 812px;
+display: flex;
+justify-content: center;
+padding: 32px;
+}
+.wapper_body{
+    width: 752px;
+    height: 748px;
+   
+   
+}
+.thatep{
+    width: 752px;
+    height: 304px;
+    border: 1px dashed black;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+   
+    display: flex;
+}
+
+.thatep1{
+    display: block;
+    text-align: center;
+   
+}
+.thatep1 img{
+   
+    width: 48px;
+    height: 48px;
+}
+.phangiua{
+    margin: 24px;
+}
+.chon1tep{
+    font-size: 14px;
+    font-weight: 500;
+}
+.ghichuhinh{
+    font-size: 10px;
+    font-weight: 400;
+    color: #999999;
+}
+.bnthem{
+    height: 48px;
+    width: 76px;
+    background-color: #FFFFFF;
+    color: #1958AD;
+}
+
+.formnhap{
+    display: flex;
+    padding-top: 32px;
+    justify-content: space-between; /* Đẩy .left và .right về hai đầu */
+    align-items: center;
+}
+.bentrong{
+    display: block;
+    
+   
+}
+.selectne {
+  position: relative;
+width: 360px;
+
+}
+.inputne{
+    margin-top: 10px;
+    width: 360px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    background: #F2F2F2;
+    margin-bottom: 12px;
+    outline: none;
+    padding-left: 12px;
+
+     appearance: none; /* ẩn mũi tên mặc định */
+  -webkit-appearance: none; /* ẩn mũi tên trên Safari */
+   
+
+}
+.selectne img {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* để ảnh không gây cản trở khi bấm vào select */
+  width: 16px; /* điều chỉnh kích thước mũi tên */
+  height: auto;
+  
+}
+
+.inputne::before {
+    content: "Chọn file";
+    display: inline-block;
+    padding: 10px 15px;
+    color: black;
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.inputne::file-selector-button {
+    display: none;
+}
+
+.btnthemvao{
+    width: 274px;
+    height: 64px;
+    border-radius: 12px;
+    background-color: #438FF7;
+    border: none;
+    margin-top: 12px;
+   
+    
+    
+}
+  
+.chonutragiua {
+  display: flex;
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+}

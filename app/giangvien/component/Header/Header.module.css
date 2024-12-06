@@ -1,0 +1,110 @@
+.nav {
+  display: flex;
+  padding: 8px 32px !important;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--background-BgBlur);
+  box-shadow: 0px 0px 2px 0px rgba(40, 41, 61, 0.04),
+    0px 4px 8px 0px rgba(96, 97, 112, 0.16);
+  gap: 36px;
+  height: 74px;
+}
+
+.navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+/* form */
+.formGroup {
+}
+
+.searchInput {
+  max-width: 400px;
+  height: auto;
+}
+
+.searchText {
+  font-size: 10px;
+}
+
+.searchInput {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+}
+
+.searchIcon {
+  background: none;
+  border: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+/* btnSearch */
+
+.btnSearch {
+  padding: 0px 12px !important;
+  background-color: white !important;
+  background-color: transparent;
+  border: none !important;
+
+  &:hover {
+    background-color: transparent;
+  }
+}
+.btnSearch img {
+  height: 11px;
+  width: 11px;
+}
+
+.rightIcons {
+  display: flex;
+  align-items: center;
+}
+
+.iconButton1 {
+  font-size: 1.25rem;
+  margin-left: 20px;
+  color: #333;
+  background: none;
+  border: none;
+  padding: 0;
+}
+.iconButton2 {
+  font-size: 1.25rem;
+  margin-left: 20px;
+  color: #333;
+  background: none;
+  border: none;
+  padding: 0;
+}
+.iconButton2 img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.CTA {
+  gap: 1.5rem;
+}
+
+.notificationWrapper {
+  position: absolute;
+  right: 120px;
+  top: 70px;
+  width: 320px;
+  height: 515px;
+  z-index: 1000;
+}
+
+.settingsWrapper {
+  position: absolute;
+  right: 50px;
+  top: 70px;
+  width: 220px;
+  z-index: 1000;
+}

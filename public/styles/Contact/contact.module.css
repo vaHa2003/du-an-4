@@ -1,0 +1,216 @@
+.main {
+    margin-top: 74px;
+}
+
+.Container {
+    /* height: 100vh; */
+    padding: 80px 40px;
+    max-width: 1200px;
+}
+
+.content {
+    display: flex;
+    padding: 24px 0px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.LeftHero {}
+
+.subHeading {
+    margin-bottom: 24px;
+    color: var(--text-100);
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.heading {
+    color: var(--text-100);
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: -0.96px;
+    white-space: nowrap;
+}
+
+.RightHero {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 24px;
+}
+
+.bgDecor,
+.bgDecor1 {
+    position: absolute;
+    top: 25%;
+    right: 25%;
+
+    translate: y(-25%);
+}
+
+.bgDecor1 {
+    margin-top: 24px;
+    margin-right: 150px;
+}
+
+/* form */
+.form {
+    height: 647px;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0px 0px 6px 0px var(--blue-20);
+}
+
+.LeftForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 32px 32px 24px 32px;
+    border-radius: 12px;
+    border: 1px solid var(--blue-30);
+    background: var(--blue-30);
+    color: var(--text-0);
+    overflow: hidden;
+}
+
+.topInfoForm {}
+
+.titleForm {
+    font-size: 2.125rem;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: -0.68px;
+}
+
+.subTitleForm {
+    font-size: 1rem;
+    color: var(--text-0);
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.contactItems {
+    padding: 32px 0px;
+
+}
+
+.contactItem {
+    margin-top: 32px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.socials {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+.ElipSocial {
+    position: absolute;
+    left: -44px;
+    bottom: -24px;
+    z-index: -1;
+}
+
+.ElipSocial1 {
+    position: absolute;
+    right: 48px;
+    bottom: 61px;
+    z-index: -1;
+}
+
+.ElipSocial2 {
+    position: absolute;
+    right: -120px;
+    bottom: -98px;
+    z-index: -1;
+}
+
+.RightForm {
+    padding: 32px 64px 32px 32px;
+}
+
+.titleRForm {
+    color: var(--blue-50);
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.48px;
+}
+
+.formContainer {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.topForm {
+    display: flex;
+    gap: 32px;
+}
+
+.formItem {
+    flex: 1;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.formLabel {
+    color: var(--text-75);
+    font-size: .865rem;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.formMessage {
+    color: var(--error);
+    font-size: .75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.ctaForm {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.formControl {
+    padding-bottom: 6px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--gray-70);
+
+    &:focus {
+        border-bottom: 1px solid var(--blue-50);
+    }
+}
+
+.formControlTextAre {
+    min-height: 190px;
+    max-height: 220px;
+}
+
+.formCheckBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

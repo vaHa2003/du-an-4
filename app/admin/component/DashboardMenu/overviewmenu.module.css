@@ -1,0 +1,163 @@
+.customOffcanvas {
+  width: 450px !important;
+  max-height: 1022px !important;
+  overflow-y: scroll; /* Bật cuộn dọc */
+  scrollbar-width: none; /* Ẩn thanh cuộn trên Firefox */
+}
+
+.header {
+  display: flex;
+  height: 48px;
+  width: 450px;
+}
+.title {
+  padding-left: 12px;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  color: #000000;
+  font-size: 14;
+  font-weight: 500;
+}
+.customCloseButton {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.closeIcon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.processbar {
+  height: 60px;
+  width: 60px;
+  margin-left: 27px;
+}
+
+.progresstext {
+  margin-left: 10px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  width: 450px;
+  height: 55px;
+  margin-bottom: 24px;
+}
+
+.verticalLine1 {
+  height: 52px;
+  width: 3px;
+  background-color: #24a148;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.verticalLine2 {
+  height: 52px;
+  width: 3px;
+  background-color: #15c8e0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.verticalLine3 {
+  height: 52px;
+  width: 3px;
+  background-color: #4589ff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.text1 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+}
+.text2 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #666666;
+}
+
+.wapper_chart{
+  margin: 16px 24px 24px 24px;
+  padding: 16px 24px 24px 24px;
+  width: 374px;
+  height: 328px;
+  background-color: #FFFFFF;
+  border: 1px solid #F1F1F1;
+  display: block;
+  
+  
+}
+.tieude_chart{
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  text-align: center;
+  padding-bottom: 8px;
+  
+}
+.tieude1{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500px;
+  
+}
+ .custom_select {
+    width: 163px;
+    height: 24px;
+    font-size: 16px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    position: relative;
+   
+  }
+
+  /* Tạo mũi tên tùy chỉnh bằng CSS */
+  .custom_select-wrapper {
+    position: relative;
+    display: inline-block;
+    
+    width: 24px;
+    height: 24px;
+  }
+  .custom_select-wrapper::after {
+    content: "▼";
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none; /* Ngăn mũi tên tương tác chuột */
+    color: #333;
+  }
+
+
+  .soluonghocvien{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    color: #1958AD;
+  
+    
+  }
+  .soluongonline{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #666666;
+ 
+    padding-bottom: 16px;
+  }
+
+

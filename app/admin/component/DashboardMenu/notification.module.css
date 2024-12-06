@@ -1,0 +1,116 @@
+.notificationContainer {
+  border: 1px solid #ddd;
+  background-color: white;
+  border-radius: 8px;
+   align-items: center; /* Căn giữa theo chiều ngang */
+   
+ 
+}
+
+.header {
+  background-color: #438FF7;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+ 
+}
+
+.notificationBody {
+  max-height: 407px; 
+  overflow-y: auto;
+
+}
+
+.notificationBody::-webkit-scrollbar {
+    width: 10px; 
+}
+
+.notificationBody::-webkit-scrollbar-thumb {
+    background-color: #D9D9D9; 
+    border-radius: 21px; 
+}
+
+.notificationBody::-webkit-scrollbar-button {
+    display: none; 
+}
+
+
+.notificationItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+
+  
+}
+.part1{
+    display: flex;
+  align-items: center;
+ 
+  padding: 12px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.name {
+  font-weight: bold;
+}
+.message {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+.option_button_group{
+  display:flex;
+  padding: 4px;
+  justify-content: center;
+  align-items: center;
+ 
+ 
+
+}
+.option_button {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafa;
+
+  border: none;
+}
+
+.option_button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+padding-left: 12px;
+
+}
+
+.option_button a img {
+  width: 24px;
+  height: 24px;
+}
+
+.loadMore {
+ 
+justify-content: center;
+text-align: center;
+padding: 10px;
+
+
+ 
+}
+.buttonnoti{
+  color: white;
+background: #438FF7 !important;
+ width: 127px; 
+  height: 48px; 
+ border: none;
+  border-radius: 12px;
+}

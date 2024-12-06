@@ -1,0 +1,76 @@
+.paginationWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 24px; /* Khoảng cách giữa các số trang */
+  padding: 10px 24px;
+  border-radius: 50px;
+  background-color: #f2f4f8;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pagination .page-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  border: none;
+}
+
+.pagination .page-item .page-link {
+  color: #6c757d;
+  font-size: 16px;
+  padding: 5px 15px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.pagination .page-link:hover {
+  background-color: #e9ecef;
+}
+
+.pagination .page-item.active .page-link {
+  width: 31px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Căn giữa số */
+  background-color: #458eff;
+  color: white;
+  border: none;
+}
+
+.pagination .page-link:focus {
+  outline: none;
+}
+
+.pagination-prev,
+.pagination-next {
+  font-size: 18px;
+  padding: 10px;
+  color: #6c757d;
+  cursor: pointer;
+  margin: 0 40px; /* Khoảng cách giữa mũi tên và các số */
+}
+
+.pagination-prev:hover,
+.pagination-next:hover {
+  background-color: #e9ecef;
+  border-radius: 50%;
+}
+
+
+#cssTable td 
+{
+    text-align: center; 
+    vertical-align: middle;
+}

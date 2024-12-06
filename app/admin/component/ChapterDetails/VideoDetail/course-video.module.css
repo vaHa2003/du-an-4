@@ -1,0 +1,55 @@
+.content {
+  background-color: rgb(255, 255, 255);
+}
+
+.content h3 {
+  font-size: 20px;
+}
+
+.contentFooter {
+  background-color: rgb(255, 255, 255);
+  min-height: 50px;
+}
+
+.videoContainer {
+  margin: 0 auto;
+}
+
+.videoContainer video {
+  width: 100%;
+  height: auto; /* Adjust height automatically */
+}
+
+.chapters {
+  min-width: 260px;
+}
+
+.date,
+.accordionHeaderInfo,
+.accordionChapter {
+  font-size: 10px;
+}
+
+.footerChapter {
+  font-size: 14px;
+}
+
+.footerBtnStart {
+  border-radius: 0%;
+  color: var(--blue-60);
+  background-color: var(--blue-90) !important;
+}
+
+.searchIcon {
+  color: var(--blue-60);
+}
+
+.chapterBtn:hover {
+  background-color: var(--blue-95);
+}
+
+.no_outline{
+  outline: none !important;
+  border: 1px solid #dee2e6;
+
+}

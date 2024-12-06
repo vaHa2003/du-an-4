@@ -1,0 +1,33 @@
+.postContainer {
+  border-radius: 14px;
+}
+
+.dragAndDrop {
+  border: 2px;
+  border-radius: 10px;
+  border-style: dashed;
+  height: fit-content;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 56px 0;
+}
+
+.dragAndDrop span {
+  font-size: 10px;
+}
+
+.seperator {
+  border-left: solid 1px var(--gray-50);
+}
+
+.addBtn {
+  font-size: 20px;
+  min-width: 275px;
+  min-height: 65px;
+  margin: 0 auto;
+}
+
+.form {
+  background-color: var(--gray-90);
+  font-size: 14px;
+}
