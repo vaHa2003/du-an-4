@@ -10,7 +10,7 @@ const ListSingle = () => {
                 {[1, 2, 3].map((item, index) => (
                     <Row key={index} className="align-items-center mb-5">
                         <Row className="text-muted align-items-center">
-                            <Col xs="auto" className="pb-3">
+                            <Col xs="auto" className="p-0 pb-3">
                                 <span
                                     style={{
                                         borderLeft: "2px solid black",
@@ -29,8 +29,8 @@ const ListSingle = () => {
                                 </span>
                                 <span>Tuấn Huỳnh</span>
                             </Col>
-                            <Col className="text-end">
-                                <span style={{ color: "#88e8f4", marginLeft: "10px" }}>#</span>Công
+                            <Col className="text-end pb-3">
+                                <span style={{ color: "#88e8f4", marginRight: "10px" }}>#</span>Công
                                 nghệ mới
                             </Col>
                         </Row>
@@ -39,34 +39,34 @@ const ListSingle = () => {
                         {index % 2 === 0 ? (
                             <>
                                 {/* Ảnh bên trái */}
-                                <Col xs={12} lg={4} className="mb-4 mb-lg-0">
-                                    <Card
-                                        className="border-0 position-relative w-100"
-                                    >
+                                <Col xs={12} lg={3} className="mb-4 mb-lg-0 px-0">
+                                    <Card className="border-0 position-relative w-100">
                                         <Card.Img
-                                            className="w-100"
-                                            style={{ objectFit: "cover", height: "144px" }}
-                                            src="https://placehold.co/204x144"
+                                            style={{
+                                                height: "144px",
+                                                maxWidth: "240px",
+                                                objectFit: "cover",
+                                            }}
+                                            src="https://placehold.co/240x144"
                                             alt={`img ${index + 1}`}
                                         />
                                     </Card>
                                 </Col>
 
                                 {/* Nội dung bên phải */}
-                                <Col xs={12} lg={8}>
-                                    <Card.Text className="text-black fs-6 lh-base fw-medium text-start m-0">
+                                <Col xs={12} lg={9} className="px-0 ">
+                                    <Card.Text className="text-black fs-6 lh-base fw-medium text-start m-0" style={{ height: "145px", padding: "0px 13px" }}>
                                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quis incidunt eius pariatur blanditiis sapiente eaque quaerat quidem magni, facilis, modi omnis eos totam odio voluptate reiciendis corrupti rerum laboriosam!
                                         Dolores blanditiis asperiores nihil. Pariatur cum commodi, facilis eveniet doloremque eum expedita nemo, adipisci, incidunt tempora dolores necessitatibus illum reiciendis deserunt suscipit tempore dolorum. Quam soluta nostrum dicta modi magnam.
                                         Quod, eligendi. Numquam doloribus impedit facilis commodi. Consectetur delectus quasi odit culpa error dolores quisquam fugiat impedit deleniti ratione pariatur...
                                     </Card.Text>
                                 </Col>
-
                             </>
                         ) : (
                             <>
                                 {/* Nội dung bên trái */}
-                                <Col xs={12} lg={8}>
-                                    <Card.Text className="text-black fs-6 lh-base fw-medium">
+                                <Col xs={12} lg={9} className="px-0 d-flex align-items-start">
+                                    <Card.Text className="text-black fs-6 lh-base fw-medium m-0" style={{ height: "145px", padding: "0px 13px" }}>
                                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quis incidunt eius pariatur blanditiis sapiente eaque quaerat quidem magni, facilis, modi omnis eos totam odio voluptate reiciendis corrupti rerum laboriosam!
                                         Dolores blanditiis asperiores nihil. Pariatur cum commodi, facilis eveniet doloremque eum expedita nemo, adipisci, incidunt tempora dolores necessitatibus illum reiciendis deserunt suscipit tempore dolorum. Quam soluta nostrum dicta modi magnam.
                                         Quod, eligendi. Numquam doloribus impedit facilis commodi. Consectetur delectus quasi odit culpa error dolores quisquam fugiat impedit deleniti ratione pariatur...
@@ -74,25 +74,27 @@ const ListSingle = () => {
                                 </Col>
 
                                 {/* Ảnh bên phải */}
-                                <Col xs={12} lg={4} className="mb-4 mb-lg-0">
-                                    <Card
-                                        className="border-0 position-relative w-100"
-                                    >
+                                <Col xs={12} lg={3} className="mb-4 mb-lg-0 px-0">
+                                    <Card className="border-0 position-relative w-100">
                                         <Card.Img
-                                            className="w-100"
-                                            style={{ height: "144px", objectFit: "cover" }}
-                                            src="https://placehold.co/204x144"
+                                            style={{
+                                                height: "144px",
+                                                maxWidth: "240px",
+                                                objectFit: "cover",
+                                            }}
+                                            src="https://placehold.co/240x144"
                                             alt={`img ${index + 1}`}
                                         />
-
                                     </Card>
                                 </Col>
                             </>
                         )}
+
                     </Row>
                 ))}
             </Row>
         </Container>
+
 
 
     )

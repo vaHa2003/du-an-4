@@ -8,7 +8,7 @@ const LinePostTwoPostTTO = () => {
         <Container className='m-0'>
             <Row style={{ padding: "0 55px" }}>
                 {/* Left section */}
-                <Col xs={12} lg={8}>
+                <Col xs={12} lg={6}>
                     <Row className="g-4">
                         {[1, 2].map((item, index) => (
                             <Col xs={6} key={index}>
@@ -16,8 +16,11 @@ const LinePostTwoPostTTO = () => {
                                     <Row className="g-3 d-flex flex-column">
                                         <Col xs={12}>
                                             <Card.Img
-                                                className="w-100"
-                                                style={{ height: '137px', objectFit: 'cover' }}
+                                                style={{
+                                                    height: '144px',
+                                                    maxWidth: '304px',
+                                                    objectFit: 'cover',
+                                                }}
                                                 src="https://placehold.co/304x144"
                                                 alt={`Image ${index + 1}`}
                                             />
@@ -27,8 +30,16 @@ const LinePostTwoPostTTO = () => {
                                                 <Card.Title className="h6 fw-semibold">
                                                     Bài viết nhất trong tháng
                                                 </Card.Title>
-                                                <Card.Text className="text-black fs-6 lh-base fw-medium">
-                                                    Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla
+                                                <Card.Text className="text-black fs-6 lh-base mb-2 fw-medium" style={{
+                                                    display: "-webkit-box",
+                                                    WebkitBoxOrient: "vertical",
+                                                    WebkitLineClamp: 4,
+                                                    overflow: "hidden",
+                                                    textOverflow: "ellipsis",
+                                                    maxHeight: "6rem"
+                                                }}>
+                                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore nostrum nobis, alias incidunt accusantium adipisci, doloremque perspiciatis veritatis quisquam debitis hic deserunt? Debitis sint inventore nulla officia saepe assumenda nisi.
+                                                    Aperiam autem possimus consectetur dolor saepe quaerat dolores magnam repellendus perspiciatis corrupti at veritatis suscipit, labore dignissimos porro iusto commodi ut voluptatibus aliquid dolorem minima qui perferendis? Distinctio, dolorum eos.
                                                 </Card.Text>
                                             </Card.Body>
                                             <Row className="text-muted align-items-center" style={{ fontSize: '0.8rem' }}>
@@ -43,10 +54,13 @@ const LinePostTwoPostTTO = () => {
                     </Row>
                 </Col>
 
+
+
                 {/* Right section */}
                 <ListPostTTO step={step} setStep={setStep} />
             </Row>
         </Container>
+
     )
 }
 
